@@ -13,6 +13,7 @@ public class DeleteCookies {
   public void cookies() {
 	  WebDriver driver = new ChromeDriver();
 	  driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20, 0));
+   //adding new line for git modify
 	  driver.get("https://google.com");
 	  driver.manage().window().maximize();
 	  //driver.manage().deleteCookieNamed("NID");
