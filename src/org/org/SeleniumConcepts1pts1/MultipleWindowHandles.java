@@ -24,7 +24,8 @@ public class MultipleWindowHandles {
   }
   @Test
   public void case1() {
-	 
+	//adding new line for jenkins build run
+        //for jenkins 
 	 driver.findElement(By.xpath("//button[@id=\"newWindowsBtn\"]")).click();
 	 String mainWindow = driver.getWindowHandle();
 	 System.out.println("main window id: "+mainWindow);
