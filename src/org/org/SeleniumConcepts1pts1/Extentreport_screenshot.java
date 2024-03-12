@@ -36,6 +36,7 @@ public class Extentreport_screenshot {
 	  .addScreenCaptureFromPath(path, "google picture");
 	  extReport.createTest("base64 screenshot")
 	  .addScreenCaptureFromBase64String(base64, "google base64");
+	  extReport.info("hi hello");
 	  extReport.flush();
 	  Desktop.getDesktop().browse(new File("report.htms").toURI());	  
   }
